@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\MBamb\Documents\_RevatureRepos\1807Jul30Java\Mark_Bambino_Code\.metadata\.plugins\org.eclipse.jdt.core
-4098384422.index
-2622456074.index

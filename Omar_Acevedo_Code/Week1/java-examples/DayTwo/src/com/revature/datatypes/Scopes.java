@@ -29,6 +29,9 @@ public class Scopes extends HelperFunctions {
 	 * 
 	 * Loop/Block = any variables defined within curly braces
 	 * 
+	 * WE CAN access static variables adn methods from an instance of an object
+	 * We CANNOT access instance var and methods from a class alone
+	 * 
 	 * @param args
 	 */
 	

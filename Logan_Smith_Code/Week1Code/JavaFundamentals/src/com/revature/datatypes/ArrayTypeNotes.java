@@ -1,5 +1,5 @@
 package com.revature.datatypes;
 
-public class Arrays {
+public class ArrayTypeNotes {
 
 }

@@ -40,6 +40,20 @@ public class Primitives {
 		
 		int meleon = (int) mander;
 		
+		int safety = 100_100_100;
+		
+		long tooLong = 10000000000l;
+		
+		int binary = 0B101001;
+		
+		// Octal: 0-7
+		
+		int octal = 0107264;
+		
+		//Hexadecimal: 0-f
+		
+		int hex = 0xa3f82;
+		
 		System.out.println(meleon);
 
 	}

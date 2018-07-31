@@ -14,13 +14,13 @@ public class FizzBuzz {
 	}
 	
 	public static void fizzBuzz(int n) {
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			StringBuilder s = new StringBuilder();
 			if((i%3)==0) {
-				s.append("fizz");
+				s.append("Fizz");
 			}
 			if((i%5)==0) {
-				s.append("buzz");
+				s.append("Buzz");
 			}
 			if(s.length() == 0){
 				s.append(i);

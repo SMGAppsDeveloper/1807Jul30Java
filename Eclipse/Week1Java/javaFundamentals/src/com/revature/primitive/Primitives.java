@@ -14,8 +14,8 @@ public class Primitives {
 		int var; //declaring variable;
 		var = 5; //initializing variable
 		int x = 10;
-		x = 5; //reassigning variable
-		
+		x = (int)5.21; //reassigning variable
+		System.out.println(x);
 		char ch = 'a';//Initializing and declaring variable
 	}
 

@@ -1,0 +1,8 @@
+final
+    class - cannot be extended
+    method - cannot be overriden
+    variables - cannot be changed/reassigned once initialized
+
+StringBuilder and StringBuffer are mutable
+
+

@@ -32,7 +32,6 @@ public class HelloWorld {
 	//[access modifier][non-access modifiers][return type][method name][(parameters)]
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
-		
 		ArrayList<String> f = new ArrayList<>();
 	}
 

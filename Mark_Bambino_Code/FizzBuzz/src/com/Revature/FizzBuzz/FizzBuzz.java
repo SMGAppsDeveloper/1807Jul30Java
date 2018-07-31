@@ -4,7 +4,21 @@ import java.util.Scanner;
 
 public class FizzBuzz {
 
+	/*
+	 * Notes:
+	 * 	scanners
+	 * 	wrapper classes
+	 * 	arrays
+	 * 	
+	 */
+	
+	/*
+	 * var args
+	 * 	void func(int... args)
+	 */
+	
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		

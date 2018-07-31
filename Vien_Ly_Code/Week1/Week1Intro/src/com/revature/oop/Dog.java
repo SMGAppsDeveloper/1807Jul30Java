@@ -25,6 +25,7 @@ public class Dog extends Pet {
 			repeats--;
 			System.out.print(" woof ");
 		}
+		System.out.println();
 	}
 
 	public String getBreed() {
@@ -34,5 +35,11 @@ public class Dog extends Pet {
 	public void setBreed(String breed) {
 		this.breed = breed;
 	}
+
+	@Override
+	public void printInfo() {
+		System.out.println(this.name + " is a " + this.weight + " lbs " + this.breed);
+	}
+	
 
 }

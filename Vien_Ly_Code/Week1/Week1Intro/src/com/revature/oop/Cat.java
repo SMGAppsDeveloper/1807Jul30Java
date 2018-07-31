@@ -21,5 +21,10 @@ public class Cat extends Pet {
 	public void setBreed(String breed) {
 		this.breed = breed;
 	}
+	
+	@Override
+	public void printInfo() {
+		System.out.println(this.name + " is a " + this.weight + " lbs " + this.breed);
+	}
 
 }

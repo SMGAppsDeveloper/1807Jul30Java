@@ -15,9 +15,11 @@ public abstract class Pet {
 	}
 	
 	public abstract void makeSound();
+	public abstract void printInfo(); //abstract method because different pets might have different state variables
 	
-	public void feed(int foodAmount) {
-		this.weight += foodAmount;
+	public static void feed(Pet pet, int foodAmount) {
+		System.out.println("you fed " + pet.getName() + " " + foodAmount + " lbs of pet foods");
+		pet.weight += foodAmount;
 	}
 
 	public String getName() {

@@ -12,6 +12,7 @@ public class ControlStructureClass extends HelperFunctions {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		int howManyTimes = 10;
 		
 		populateList(howManyTimes);
@@ -21,16 +22,11 @@ public class ControlStructureClass extends HelperFunctions {
 
 	private static void populateList(int count) {
 		int justAnInt = 1;
-		for ( int i = 0; i < count; i++ ) {
-			
+		for ( int i = 0; i < count; i++ ) {	
 			myString = convertValueStr(i);
-			
 			justAnInt *= 2;
-			
 			myMap.put(myString, justAnInt);
-			
 		}
-
 	}
 	
 	private static void showList() {

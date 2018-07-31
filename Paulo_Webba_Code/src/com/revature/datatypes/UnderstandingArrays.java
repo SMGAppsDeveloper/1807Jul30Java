@@ -24,6 +24,9 @@ public class UnderstandingArrays {
 		Arrays.sort(nums);
 		System.out.println(Arrays.toString(nums));
 		
+		//var args
+		
+		
 
 	}
 

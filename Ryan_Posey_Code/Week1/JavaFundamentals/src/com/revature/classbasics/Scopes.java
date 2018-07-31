@@ -24,28 +24,59 @@ public class Scopes {
 	 * 		Variables in this scope exist for the lifetime of a method
 	 * 
 	 * Loop/Block = any variables defined within curly braces
+	 * 
+	 * 
+	 * 
+	 * 
+	 * We CAN access static variables and methods from an instance
+	 * of an object
+	 * We CANNOT access instance variables and methods from class alone
+	 * 
+	 * class A {
+	 * 	static int count;
+	 * 	int age;
+	 * }
+	 * 
+	 * class B {
+	 * 	main {
+	 * 		A.count; //valid because count is static;
+	 * 		A a = new A; //create INSTANCE of A aka INSTANTIATE A
+	 * 		a.age; //valid because age is instance variable
+	 * 		a.count; //valid because a is an instance of class A to which count belongs
+	 * 		A.age; // NOT VALID NO DONT DO THIS WILL NOT COMPILE
+	 * 	}
+	 * }
 	 */
 	
 	int age;
 	String name;
-	static int count = 0;
 	
-	public Scopes() {
-		//constructor.. will discuss later
-		count++;
-	}
+	static Integer integer;
+	static boolean b;
+	static short s;
+	static char ch;
+	static long l;
+	static float f;
+	static byte by;
 	
 	public static void main(String[] args) {
-		Integer num = new Integer(5);
-		Integer x = new Integer(159109);
-		System.out.println(num.MAX_VALUE == x.MAX_VALUE);
-		
-		Scopes s = new Scopes();
-		s.age = 16;
-		s.doThings();
+		System.out.println("Integer default: " + integer);
+		System.out.println("boolean: " + b);	
 	}
 	
-	static void doThings() {
-		
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 }

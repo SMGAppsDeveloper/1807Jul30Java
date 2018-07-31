@@ -36,7 +36,7 @@ public class ControlStructureClass extends HelperFunctions {
 			print(x);
 		}
 		
-		print("----------------");
+		print("\n------Let's do an array and do a (for loop) over it----------");
 		
 		String[] words = {"Hello", "there", "you"};
 		
@@ -44,20 +44,20 @@ public class ControlStructureClass extends HelperFunctions {
 			print(words[i]);
 		}
 		
-		print("----------------");
+		print("\n------Let's do an array and do a (for in) loop over it----------");
 		
 		for (String word : words) {
 			print(words + ": " + word);
 		}
 		
-		print("----------------");
+		print("\n------Let's do while loop----------");
 		
 		while ( count <= 30 ) {
 			print("while count (" + count + " <= " + count + " is true");
 			count++;
 		}
 		
-		print("----------------");
+		print("\n------Let's do switch statement----------");
 		
 		switch (count) {
 			case 1:

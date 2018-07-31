@@ -58,7 +58,7 @@ public class Simulator extends Avatar {
 	
 	private static String[] prepareSimulation() {
 		
-		String[] avatarList = {"Omar", "Laura", "Billy", "Joel", "Camille", "Guile", "Taco", "Becky", "Baker"};
+		String[] avatarList = {"Omar", "Laura", "Billy", "Joel", "Camille", "Salam", "Mee", "Taco", "Tuesday", "Becky", "Baker"};
 		return avatarList;
 	}
 	

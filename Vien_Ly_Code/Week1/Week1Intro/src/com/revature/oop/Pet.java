@@ -1,8 +1,8 @@
 package com.revature.oop;
 
 public abstract class Pet {
-	private String name;
-	private int weight;
+	protected String name;
+	protected int weight;
 	
 	public Pet(int weight) {
 		this.name = "Good boy";

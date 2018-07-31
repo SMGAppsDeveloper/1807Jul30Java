@@ -16,7 +16,15 @@ public class Dog extends Pet {
 	
 	@Override
 	public void makeSound() {
-		System.out.println("Woof");
+		System.out.println(this.name + " says woof");
+	}
+	
+	public void makeSound(int repeats) {
+		System.out.print(this.name + " says ");
+		while (repeats > 0) {
+			repeats--;
+			System.out.print(" woof ");
+		}
 	}
 
 	public String getBreed() {

@@ -1,0 +1,28 @@
+package com.revature.datatypes;
+
+public class Primitives {
+/*
+	Java has 8 primitive datatypes, which represent raw datatypes
+	in an organized form
+	int, boolean, byte, char, short, double, long, float
+	
+	When a number/string/array/etc is actually written out,
+	it is called a literal
+ */
+	
+	public static void main(String[] args) {
+		int var; // declaring variable
+		var = 5; // initializing variable
+		var = 10; // reassigning variable
+		
+		
+		int x = 10; // declaring and initializing var
+		x = 100; // cannot declare the same variable twice in the same scope
+		
+		char ch = 'a';
+		
+		/*
+			
+		*/
+	}
+}

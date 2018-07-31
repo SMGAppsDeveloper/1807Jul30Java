@@ -38,6 +38,14 @@ public class Scopes extends HelperFunctions {
 	int age;
 	String name;
 	static int count = 0;
+	static Integer integer;
+	static double d;
+//	static int count;
+	static boolean b;
+	static short s;
+	static char ch;
+	static long l;
+	static float f;
 	
 	public Scopes() {
 		count++;

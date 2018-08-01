@@ -19,7 +19,7 @@ public void setAge(int newValue) {
 	age = newValue;}
 	
 	public static void main(String[] args) {
-
+//Person p = new Person();
 
 	}
 

@@ -1,11 +1,11 @@
-package com.revature.controlstructures;
+package com.revature.excercises;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 import com.revature.helpers.HelperFunctions;
 
-public class ControlStructureClass extends HelperFunctions {
+public class ControlStatementExamples extends HelperFunctions {
 
 	private static Map<String, Integer> myMap = new HashMap<>();
 	private static String myString;

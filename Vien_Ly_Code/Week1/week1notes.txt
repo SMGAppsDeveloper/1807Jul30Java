@@ -5,4 +5,14 @@ final
 
 StringBuilder and StringBuffer are mutable
 
+StringBuilder moves faster than StringBuffer,
+since stringbuffer is threadsafe
+
+Strings
+    objects representing series of characters
+    immutable
+    string pool - collection of unique string literals stored on the heap
+    serializable
+
+
 

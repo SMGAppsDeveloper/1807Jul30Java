@@ -54,6 +54,4 @@ public abstract class HumanBluePrint extends HelperFunctions implements HumanAct
 		print("\t    Avatar " + this.getName() + " wakes up.");
 	}
 	
-	
-	
 }

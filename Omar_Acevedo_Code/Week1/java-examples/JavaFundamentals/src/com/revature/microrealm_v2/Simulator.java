@@ -12,7 +12,7 @@ public class Simulator extends Avatar {
 //		Map<HumanBluePrint, String> preAvatarList = initAvatars(); // or prepare Avatars?
 		
 		runSimulation(preAvatarList);
-				
+		
 	}
 	
 	private static void runSimulation(Map<Avatar, String> p_preAvatarList) {
@@ -24,8 +24,8 @@ public class Simulator extends Avatar {
 			print("Info about Avatar #" + avatar.hashCode());
 			print("\tName: " + avatar.getKey().getName());
 			print("\tGiven Role: " + avatar.getValue());
-			
-			print("\tHuman actions it can do:");
+//			print("\t" + Simulator.class.getName());
+			print("\tHuman Actions it can do:");
 			avatar.getKey().talks();
 			avatar.getKey().walk();
 			avatar.getKey().run();
@@ -68,11 +68,11 @@ public class Simulator extends Avatar {
 		avatarNameList[4][0] = "Becky";
 		avatarNameList[4][1] = "female";
 
-		Avatar avatar;
-//		HumanBluePrint avatar;
+//		Avatar avatar;
+		HumanBluePrint avatar;
 		
-		Map<Avatar, String> avatarList = new HashMap<>();
-//		Map<HumanBluePrint, String> avatarList = new HashMap<>();
+//		Map<Avatar, String> avatarList = new HashMap<>();
+		Map<HumanBluePrint, String> avatarList = new HashMap<>();
 
 		String name;
 		String gender;
@@ -89,7 +89,7 @@ public class Simulator extends Avatar {
 			
 			avatar = new Avatar(name, gender);
 //			avatar.setRole(role);
-			
+		
 			avatarList.put(avatar, role);
 			
 		}

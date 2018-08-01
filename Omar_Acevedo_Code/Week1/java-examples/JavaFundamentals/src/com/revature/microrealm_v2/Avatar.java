@@ -1,7 +1,8 @@
 package com.revature.microrealm_v2;
+//import com.revature.microrealm_v2.Role;
 
 public class Avatar extends HumanBluePrint {
-
+	
 	private String role;
 	
 	public Avatar() {}
@@ -18,6 +19,7 @@ public class Avatar extends HumanBluePrint {
 	}
 	
 	public /*static*/ void role() {
+//	public /*static*/ void role(Role p_type) {
 		print("...");
 	}
 	

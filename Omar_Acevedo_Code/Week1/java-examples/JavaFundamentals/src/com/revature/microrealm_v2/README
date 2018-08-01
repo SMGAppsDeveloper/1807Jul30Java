@@ -1,5 +1,37 @@
 
-This MicroRealm created by Omar Acevedo, is a development in 
-progress for practicing and testing OOP concepts.
+This MicroRealm created is a development in progress 
+for the sole purpose of practicing and testing OOP concepts.
 
-Tu run it, execute the Simulator java file. 
+To run it, execute the Simulator java file.
+
+--------------------------------------------------------------------------
+Where are the Four Pillars of OOP applied in the program?
+
+	 - Inheritance	:	
+	 	- "Extends"	:	[ClassName] inherits from [ClassName]
+	 					=>	HumanBluePrint inherits from HelperFunctions
+	 					=>	Avatar inherits from HumanBluePrint
+	 					=>	Simulator inherits from Avatar
+	 					
+	 	- "Implements"	:	[ClassName] implements [Interface]
+	 						=>	HumanBluePrint implements HumanActions
+
+	- Abstraction	:
+		- "classes"	:	[ClassName] is [abstract]
+						=>	HumanBluePrint is abstract
+						=>	Role is abstract	*NOT USED AS OF THIS MOMENT, YET
+		- "methods"	:	All methods in Role abstract class, are abstract.
+	
+	- Encapsulation	:
+		- "Private instance variables"	:	Variables in HumanBluePrint and Avatar classes.
+		- "Accessors and Mutators"		:	Getters and Setters are in HumanBluePrint and Avatar classes.
+
+	- Polymorphism	:
+		- "Overloading, Overriding"			:	Constructor overload happens in Avatar class.
+		- "Reference type* | A a = new B()"	:	Happens in Simulator class;
+											;	[ Line 72 ] => HumanBluePrint avatar
+											;	[ Line 90 ] => avatar = new Avatar(name, gender);
+		
+--------------------------------------------------------------------------
+  -->		Created by Omar Acevedo ^ 2
+--------------------------------------------------------------------------

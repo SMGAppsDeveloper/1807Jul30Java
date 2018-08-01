@@ -9,7 +9,6 @@ public class Circle implements Shape {
 	
 	@Override
 	public double calculateArea() {
-		// TODO Auto-generated method stub
 		return Math.PI * Math.pow(this.radius, 2);
 	}
 

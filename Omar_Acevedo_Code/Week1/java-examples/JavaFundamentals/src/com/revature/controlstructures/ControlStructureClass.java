@@ -21,7 +21,9 @@ public class ControlStructureClass extends HelperFunctions {
 	}
 
 	private static void populateList(int count) {
+		
 		int justAnInt = 1;
+		
 		for ( int i = 0; i < count; i++ ) {	
 			myString = convertValueStr(i);
 			justAnInt *= 2;

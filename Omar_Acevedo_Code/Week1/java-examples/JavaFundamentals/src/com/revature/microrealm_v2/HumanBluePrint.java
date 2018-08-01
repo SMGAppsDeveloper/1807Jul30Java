@@ -11,6 +11,7 @@ public abstract class HumanBluePrint extends HelperFunctions implements HumanAct
 	private String name;
 	private String gender;
 	
+	
 //	Accessors and Mutators ( getters and setters )
 	public String getHairColor() { return hairColor; }
 	public void setHairColor(String hairColor) { this.hairColor = hairColor; }
@@ -26,31 +27,31 @@ public abstract class HumanBluePrint extends HelperFunctions implements HumanAct
 	
 // 	Implement Human Actions
 	public void talks() {
-		print("\t    The avatar " + this.getName() + " talks.");
+		print("\t    Avatar " + this.getName() + " talks.");
 	}
 	
 	public void walk() {
-		print("\t    The avatar " + this.getName() + " walks.");
+		print("\t    Avatar " + this.getName() + " walks.");
 	}
 	
 	public void run() {
-		print("\t    The avatar " + this.getName() + " run.");
+		print("\t    Avatar " + this.getName() + " run.");
 	}
 	
 	public void sneeze() {
-		print("\t    The avatar " + this.getName() + " sneezes.");
+		print("\t    Avatar " + this.getName() + " sneezes.");
 	}
 	
 	public void salute() {
-		print("\t    The avatar " + this.getName() + " salute.");
+		print("\t    Avatar " + this.getName() + " salute.");
 	}
 	
 	public void sleep() {
-		print("\t    The avatar " + this.getName() + " sleep.");
+		print("\t    Avatar " + this.getName() + " sleep.");
 	}
 	
 	public void wakeUp() {
-		print("\t    The avatar " + this.getName() + " wakes up.");
+		print("\t    Avatar " + this.getName() + " wakes up.");
 	}
 	
 	

@@ -5,6 +5,4 @@ public interface AvatarRole {
 	public void hunter();
 	public void mage();
 	public void healer();
-	public void warrior();
-	public void warrior();
 }

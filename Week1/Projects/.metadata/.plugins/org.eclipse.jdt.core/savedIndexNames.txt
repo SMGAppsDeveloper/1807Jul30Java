@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\knisp\my_git_repos\1807Jul30Java\Week1\Projects\.metadata\.plugins\org.eclipse.jdt.core
+3007894392.index
+23606001.index
+1304235118.index
+1362342666.index
+1817991509.index
+874379615.index
+3515646350.index
+1405541935.index
+794046174.index
+3877388663.index
+1935137544.index
+499350124.index
+4161145060.index
+1444301810.index
+3464050.index
+3054510974.index
+856568111.index
+518020942.index
+1994840330.index
+3754077451.index
